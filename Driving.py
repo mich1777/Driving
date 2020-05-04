@@ -1,4 +1,7 @@
+import os
 country = input('請問你是哪國人？')
+if country != '台灣' and '美國':
+    os._exit(0) 
 age = input("請問你幾歲？")
 age = int(age)
 if country == '台灣':
